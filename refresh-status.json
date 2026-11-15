@@ -1,0 +1,20 @@
+{
+  "attempted_at": "2026-11-15 16:55 เวลาไทย (Asia/Bangkok)",
+  "live_prices": false,
+  "reason": "รอบนี้ยังดึงราคาสดแบบฟรีและอ่านได้แน่นอนไม่ได้ (หน้าร้าน collshp เป็นแอปที่โหลดสินค้าทีหลัง และหน้าสินค้า Shopee ติดแคปชาหรือไม่มีราคาใน HTML) จึงคงราคาและลิงก์ตามไฟล์ products.csv และแสดงข้อความข้อมูล ณ วันที่ตรวจ ไม่ได้เดาราคาใหม่",
+  "probes": [
+    {
+      "url": "https://collshp.com/mewstory_review",
+      "status": 200,
+      "captcha": false,
+      "has_baht_price": false
+    },
+    {
+      "url": "https://shopee.co.th/product/1736768928/47209642611",
+      "status": 200,
+      "captcha": false,
+      "has_baht_price": false
+    }
+  ],
+  "csv_updated": false
+}
